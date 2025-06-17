@@ -1,0 +1,397 @@
+body{
+    background: linear-gradient(#efc838 80%, white );
+    
+    
+}
+/* End of Body Styling */
+
+@font-face{
+    font-family: 'Acme';
+    src:url(Acme/Acme-Regular.ttf)
+}
+
+   nav{
+        display:flex;
+        flex-direction: row;
+        box-shadow: 0 0 20px #6d633e;
+        height: 80px;
+    }
+
+    nav a{
+        flex: 1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 20px;
+        color:#ffefb3;
+        font-family: 'Acme';
+    }
+nav a:hover{
+     background-color: #6d633e;       
+}
+/* End of Nav styling */
+
+h1{
+    color:#6d633e;
+    font-family: 'Acme';
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.p1{
+    color: #ffefb3;
+    text-wrap: balance;
+    border-top: 5px solid #ffefb3;
+    font-size: 30px;
+    font-family: 'Acme';
+}
+.SH{
+    max-width: 100%;
+    height: auto;
+}
+
+#S1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 425px){
+    .BM{
+        display: none;
+    }
+
+    #S2{
+        margin-top: 160px;
+    }
+
+    .SH{
+        width: 80%;
+    }
+
+    #S1{
+        margin-top: 120px;
+    }
+}
+/* End of Section 1 styling */
+
+.h2{
+    color:#6d633e;
+    font-family: 'Acme';
+    font-size: 50px;
+}
+/* End of styling for h2's */
+
+
+
+.p2{
+    color: #ffefb3;
+    font-family: 'Acme';
+    font-size: 20px;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.PC{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#S2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* End of Section 2 styling */
+
+
+.BR{
+    max-width: 100%;
+    height: auto;
+}
+.C{
+    max-width: 100%;
+    height: auto;
+}
+
+#S3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SM1{
+    display: flex;
+    flex-direction: column;
+}
+
+.SM2{
+    display: flex;
+    flex-direction: column;
+}
+
+.p3{
+     color: #ffefb3;
+    font-family: 'Acme';
+    font-size: 20px;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.p4{
+     color: #ffefb3;
+    font-family: 'Acme';
+    font-size: 20px;
+    text-wrap: balance;
+    text-align: center;
+}
+
+/* End of section 3 styling */
+
+.insta{
+    width: 20%;
+    height: auto;
+    margin-left: 60px;
+}
+
+.link{
+    max-width: 45%;
+    height: auto;
+}
+
+.self{
+    max-width: 25%;
+    height: auto;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efc838;
+    box-shadow: 0 0 20px #6d633e;
+
+}
+
+#S4{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin: auto;
+}
+/* end of section 4 styling */
+
+input, textarea{
+    border: 2px solid #ffefb3;
+    border-radius: 15px;
+    color: #6d633e;
+  
+}
+
+button{
+    border: 2px solid #ffefb3;
+    border-radius: 15px;
+    background-color: #ffefb3;
+    color: #6d633e;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.p5{
+    color: #ffefb3;
+    font-family: 'Acme';
+}
+.BS2{
+    width: 100%;
+    height: auto;
+}
+#S5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+/* End of section 5 styling */
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+    .BM{
+        display: none;
+    }
+
+    .BS2{
+        width: 50%;
+    }
+
+    .SH{
+        width: 70%;
+    }
+    .insta{
+        margin-left: 130px;
+    }
+
+    #S2{
+        margin-top: 200px;
+    }
+    
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 960px) {
+    .BS2{
+        width: 55%;
+        height: auto;
+    }
+    
+    
+    .BM{
+        width: 50%;
+        height: auto;
+    }
+    .SH{
+        width: 55%;
+    }
+   
+    #S1{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .p1{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -150px;
+        
+    }
+    .insta{
+        margin-left: 170px;
+    }
+    h1{
+        font-size: 70px;
+    }
+
+    .p1{
+        font-size: 45px;
+    }
+
+    #S1{
+        display: flex;
+        flex-direction: row;
+    }
+    #S2{
+        margin-top: 200px;
+    }
+
+    .BM{
+        width: 35%;
+        height: auto;
+    }
+
+    .SH{
+        width: 45%;
+    }
+
+    .p2{
+        font-size: 30px;
+    }
+    .PC{
+        width: 50%;
+    }
+
+    .BR{
+        width: 30%;
+        
+    }
+    .C{
+        width: 30%;
+    }
+
+    .SM1{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .SM2{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .p3{
+        font-size: 35px;
+    }
+
+    .p4{
+        font-size: 35px;
+    }
+
+
+   #S4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+   }
+
+   .BS2{
+    width: 30%;
+    height: auto;
+   }
+
+}
+
+@media screen and (min-width: 1440px){
+    .insta{
+        margin-left: 260px;
+    }
+}
+
+
+
+
+
